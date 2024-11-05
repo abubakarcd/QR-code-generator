@@ -1,0 +1,27 @@
+# QR Code Generator
+
+This **QR Code Generator** is a Node.js application that allows users to generate QR codes from URLs using the **inquirer** package for input, **qr-image** for generating QR codes, and the native **fs** module for saving user input.
+
+## Features
+- **User Input**: Prompts for a URL using **inquirer**.
+- **QR Code Generation**: Creates QR codes from URLs using **qr-image**.
+- **File Saving**: Saves URLs to `urls.txt` with the **fs** module.
+- **Downloadable Image**: Saves QR codes as PNG images.
+
+## Installation
+> Clone the repository:
+   
+   git clone https://github.com/your-username/your-repo-name.git
+
+
+>Navigate to the project directory:
+cd your-repo-name
+
+>Install required packages:
+npm install inquirer qr-image
+
+
+>Run the application:
+node index.js
+
+Follow the prompts to enter a URL. The app generates a QR code image and saves it to your project directory, along with the URL in urls.txt.
