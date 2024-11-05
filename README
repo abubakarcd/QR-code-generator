@@ -11,7 +11,7 @@ This **QR Code Generator** is a Node.js application that allows users to generat
 ## Installation
 > Clone the repository:
    
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/abubakarcd/QR-code-generator
 
 
 >Navigate to the project directory:
